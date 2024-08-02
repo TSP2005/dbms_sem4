@@ -1,0 +1,2 @@
+SELECT cp.C_NUM,cp.C_NAME,cp.CITY,sp.S_NAME from customers cp
+join SALES_PEOPLE sp on cp.S_NUM=sp.S_NUM where sp.S_NAME='Jessica' or sp.S_NAME='ROBERT' 

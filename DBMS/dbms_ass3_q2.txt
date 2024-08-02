@@ -1,0 +1,12 @@
+1. select * from orders LIMIT 0, 1000
+
+2. select * from customers where S_NUM = 1001 LIMIT 0, 1000
+
+3.select * from orders where Amt > 1000 LIMIT 0, 1000
+
+4.select S_NAME,CITY from SALES_PEOPLE where Comm_NUM > 0.10 LIMIT 0, 1000
+
+5.select * from CUSTOMERS where RATING > 100 or CITY = 'Rome' LIMIT 0, 1000
+
+
+

@@ -1,0 +1,5 @@
+create table SALES_PEOPLE as ass3.SALES_PEOPLE
+create table customers as ass3.customers
+create table orders as ass3.orders
+update orders set AMT= NULL where O_NUM=3009 or O_NUM=3010
+update orders set AMT= 0 where O_NUM=3002

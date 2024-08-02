@@ -1,0 +1,3 @@
+SELECT cp.C_NAME, o.O_NUM, MIN(o.AMT) FROM orders o
+JOIN customers cp ON o.C_NUM = cp.C_NUM
+GROUP BY cp.C_NAME, o.O_NUM;

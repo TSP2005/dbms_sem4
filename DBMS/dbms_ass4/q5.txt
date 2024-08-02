@@ -1,0 +1,2 @@
+select * from customers
+where C_NAME like 'T%' or C_NAME like 'H%' 

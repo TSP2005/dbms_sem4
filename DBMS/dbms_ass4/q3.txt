@@ -1,0 +1,2 @@
+  select * from customers where RATING > 100 or CITY = 'Rome'
+

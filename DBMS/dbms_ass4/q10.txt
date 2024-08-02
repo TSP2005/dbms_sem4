@@ -1,0 +1,2 @@
+select rating, C_NUM, C_NAME from customers 
+order by rating 

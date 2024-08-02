@@ -1,0 +1,2 @@
+select count(*) from orders 
+where ORDER_DATE ='03-OCT-2023' 

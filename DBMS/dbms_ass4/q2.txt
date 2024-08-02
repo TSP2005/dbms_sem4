@@ -1,0 +1,3 @@
+SELECT SP.S_NUM, SP.S_NAME, SP.CITY, SP.Comm_NUM,CP.RATING ,CP.CITY FROM SALES_PEOPLE sp
+join customers cp on sp.S_NUM=cp.S_NUM
+order by  cp.RATING ; 
